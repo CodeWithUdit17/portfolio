@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Gangwar</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 3D Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">UG.</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="glass-card profile-card" data-tilt>
+                <div class="profile-image">
+                    <img src="profile.png" alt="Utkarsh Gangwar">
+                </div>
+                <div class="profile-info">
+                    <h1 class="glitch" data-text="Utkarsh Gangwar">Utkarsh Gangwar</h1>
+                    <h2 class="subtitle">Aspiring Software Developer</h2>
+                    <p class="tagline">Crafting practical, user-friendly solutions & exploring the realms of Web and
+                        Mobile Development.</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/utkarshgangwar024" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/CodeWithUdit17" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:utkarshgangwar024@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card about-card" data-tilt>
+                <div class="about-content">
+                    <p>Aspiring software developer with a strong interest in web and mobile application development.
+                        Skilled in Python, JavaScript, HTML, CSS, debugging, and problem solving. Interested in
+                        developing practical, user-friendly software solutions and continuously improving technical
+                        knowledge through hands-on projects and learning. A motivated learner who values
+                        professionalism, consistency, teamwork, and continuous improvement.</p>
+                    <div class="education-timeline">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline-item">
+                            <h4>Bachelor of Technology (B.Tech.) – Computer Science</h4>
+                            <p>Lovely Professional University (LPU)</p>
+                            <span class="date">August 2026 – August 2030</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>10+2 – Mathematics and Computer Science</h4>
+                            <p>St Peter Sr. Sec. School</p>
+                            <span class="date">April 2016 – May 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="glass-card skill-card" data-tilt>
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Programming</h3>
+                    <p>C++, Java, Python, JavaScript, Kotlin, SQL, HTML/CSS</p>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <i class="fas fa-laptop-code skill-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>Django, Three.js, WebRTC, JSON, XML, Full-Stack Dev</p>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <i class="fas fa-mobile-alt skill-icon"></i>
+                    <h3>Mobile & Game Dev</h3>
+                    <p>Android Development, Mobile Applications, Game Development</p>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>CS Core & Data</h3>
+                    <p>DSA, OOP, OS, Computer Networking, DBMS</p>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <i class="fas fa-tools skill-icon"></i>
+                    <h3>Tools & Tech</h3>
+                    <p>Git, GitHub, Linux, VS Code, OpenCV</p>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <i class="fas fa-chart-line skill-icon"></i>
+                    <h3>Other Skills</h3>
+                    <p>Digital Marketing, MS Excel, Problem Solving, Teamwork</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/AIRFARE-PRICE-INTELIGENCE" target="_blank"
+                            class="project-link">Real-Time Airfare Intelligence <i class="fas fa-external-link-alt"
+                                style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">Python, React, FastAPI, PostgreSQL</span>
+                    <p>Developed an airfare intelligence engine prototype for SIH 2026. Built an automated data pipeline
+                        to calculate a Prototype Airfare Price Index and implemented Z-score anomaly detection.</p>
+                </div>
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/KubeMindAI" target="_blank"
+                            class="project-link">KubeMindAI <i class="fas fa-external-link-alt"
+                                style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">JavaScript, Python (Flask), HTML/CSS</span>
+                    <p>Built a complete Rubik’s Cube Solver and interactive 3D simulator web application. Designed a
+                        modern user interface featuring a Futuristic Dark Glassmorphism Theme.</p>
+                </div>
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/StudentBuddy" target="_blank"
+                            class="project-link">StudentBuddy <i class="fas fa-external-link-alt"
+                                style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">JavaScript</span>
+                    <p>Developed a comprehensive study workspace and focus companion designed specifically for high
+                        school, college students, and self-learners.</p>
+                </div>
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/MessWise-OS" target="_blank"
+                            class="project-link">MessWise-OS <i class="fas fa-external-link-alt"
+                                style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">Kotlin / Android Development</span>
+                    <p>Developed a native Android application using Kotlin to streamline management operations and
+                        deliver a seamless user experience.</p>
+                </div>
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/inventory-management-system" target="_blank"
+                            class="project-link">Inventory Management System <i class="fas fa-external-link-alt"
+                                style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">Python / Software Development</span>
+                    <p>Lokesh Fashion Point is a Python CLI app for small clothing stores. It uses MySQL for inventory
+                        management, real-time billing, and invoice generation.</p>
+                </div>
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/Pyredis" target="_blank" class="project-link">Pyredis
+                            <i class="fas fa-external-link-alt" style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">Python</span>
+                    <p>A Python-based implementation showcasing fundamental data structures and custom server logic.</p>
+                </div>
+                <div class="glass-card project-card" data-tilt>
+                    <h3><a href="https://github.com/CodeWithUdit17/Tic-Tac-Toe" target="_blank"
+                            class="project-link">Tic-Tac-Toe <i class="fas fa-external-link-alt"
+                                style="font-size:0.8em"></i></a></h3>
+                    <span class="tech-stack">JavaScript / HTML / CSS</span>
+                    <p>A classic Tic-Tac-Toe game implementation to practice game logic and UI development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Certifications Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact & More</h2>
+            <div class="contact-grid">
+                <div class="glass-card cert-card" data-tilt>
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li><i class="fas fa-certificate"></i> Build a Website Using ChatGPT</li>
+                        <li><i class="fas fa-certificate"></i> Introduction to Digital Marketing</li>
+                        <li><i class="fas fa-certificate"></i> Building Games Using Java</li>
+                        <li><i class="fas fa-certificate"></i> Tutedude Python</li>
+                        <li><i class="fas fa-certificate"></i> Excel for Beginners</li>
+                        <li><i class="fas fa-certificate"></i> Ethical Hacking – Mobile/Networks</li>
+                        <li><i class="fas fa-certificate"></i> Front End Development – CSS</li>
+                        <li><i class="fas fa-certificate"></i> Front End Development – HTML</li>
+                        <li><i class="fas fa-certificate"></i> Python Fundamentals for Beginners</li>
+                    </ul>
+                </div>
+                <div class="glass-card contact-card" data-tilt>
+                    <h3>Let's Connect</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Kichha, Uttarakhand, India</p>
+                        <p><i class="fas fa-phone"></i> +91 7428629506</p>
+                        <p><i class="fas fa-envelope"></i> utkarshgangwar024@gmail.com</p>
+                    </div>
+                    <a href="mailto:utkarshgangwar024@gmail.com" class="btn-primary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Floating CV Button -->
+    <a href="Utkarsh_cv.pdf" target="_blank" class="floating-cv" title="Download CV">
+        <i class="fas fa-file-pdf"></i>
+    </a>
+
+    <!-- Three.js for 3D Background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Vanilla Tilt for Card effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: false,
+            mirror: true,
+            offset: 50
+        });
+    </script>
+</body>
+
+</html>
